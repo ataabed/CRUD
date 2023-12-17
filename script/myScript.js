@@ -272,6 +272,7 @@ var pp=/^(https:?\/\/)?([\w]{3,}|\W{3,}|([\w]{3,}\.)?|([\w]{3,}\.[A-Za-z]{3,})?|
     return pp.test(siteUrl.value);
 }
 
+
 function validateSiteUrl() {
     if (checkSiteUrl() == false) {
         document.getElementById('frmSiteUrl_error').classList.replace('d-none','d-block')
